@@ -1,3 +1,4 @@
+import { Verification } from "./../database/models/verifications";
 import { currentpath } from "./../app";
 import { studentServie } from "./../services/student.service";
 
@@ -6,10 +7,11 @@ import app from "../app";
 import request from "supertest";
 import { describe, expect } from "@jest/globals";
 import token from "../utils/gTokenForTest";
-
+import { generateEmail } from "../utils/generatemail";
 import { NextFunction, Request, Response } from "express";
 import { ApplicationError } from "../shared/applicationError";
-import fs from "fs";
+import { verifdatabase } from "../database/repositories/verification.database";
+
 beforeAll(() => {
   return connection.sync();
 });
@@ -25,37 +27,6 @@ describe("Students endpoints", () => {
   let mockRequest: Partial<Request>;
   let mockResponse: Partial<Response>;
   let nextFunction: NextFunction = jest.fn();
-
-  it("update student profile class return the student  with successful message ", async () => {
-    const response = await request(app)
-      .put(`/api/student/1`)
-      .send({
-        firstname: "update profile",
-        lastname: "update profile",
-        phone: "5555555",
-      })
-      .set("Authorization", `Bearer ${token}`);
-
-    expect(response.status).toEqual(200);
-    expect(response.body).toEqual({
-      updateduser: {
-        id: 1,
-
-        firstname: "update profile",
-        lastname: "update profile",
-        email: response.body.updateduser.email,
-        phone: "5555555",
-
-        is_verified: response.body.updateduser.is_verified,
-        birthDate: response.body.updateduser.birthDate,
-        role: response.body.updateduser.role,
-        codevalidation: response.body.updateduser.codevalidation,
-        governementId: response.body.updateduser.governementId,
-        classId: response.body.updateduser.classId,
-      },
-      success: true,
-    });
-  });
 
   it(" when student subscribe a chapter should return studentid ,chapterId and successful message ", async () => {
     let lastStudentForTest: any = await connection.query(
@@ -143,24 +114,35 @@ describe("Students endpoints", () => {
     }
   });
 
-  // it("should return 201 and create user with single image upload", async () => {
-  //   const response = await request(app)
-  //     .post("/api/student/upload")
-  //     .set("Authorization", `Bearer ${token}`)
-  //     .set("content-type", "multipart/form-data")
-  //     .attach(
-  //       "file",
-  //       fs.readFileSync(`${currentpath}/public/temp/ali.jpg`),
-  //       "tests/file.png"
-  //     );
-  //   console.log("reeeeesss", response.body);
-  //   expect(response.status).toEqual(404);
-  //   expect(response.body).toEqual({
-  //     upload: {
-  //       message: "image successfully uploaded",
-  //       url: "http://localhost:3500/temp/file.png",
-  //     },
-  //     success: true,
-  //   });
-  // });
+  it("subscribe the same subject again should return an error msg  ", async () => {
+    let lastobject: any = await connection.query(
+      "select * from subjectStudent order By subjectId DESC LIMIT 1  "
+    );
+
+    try {
+      await studentServie.subscribeToSubject({
+        studentId: lastobject[0][0].studentId,
+        subjectId: lastobject[0][0].subjectId,
+      });
+    } catch (error) {
+      expect(error).toBeInstanceOf(ApplicationError);
+    }
+  });
+
+  it("find student with valid phone should return the student  ", async () => {
+    const response = await verifdatabase.findByPhone("54456521");
+    console.log("erere", response);
+    expect(response?.dataValues.phone).toEqual("54456521");
+  });
+
+  it("Subscribe to a subject with invalid user should return an error ", async () => {
+    try {
+      await studentServie.subscribeToSubject({
+        studentId: "55555555555",
+        subjectId: "555555555",
+      });
+    } catch (error) {
+      expect(error).toBeInstanceOf(ApplicationError);
+    }
+  });
 });

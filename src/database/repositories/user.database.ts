@@ -12,16 +12,18 @@ const findByEmail = async (Model: any, email: string) => {
   logger.info(` ${NAMESPACE} :  findByEmail starting ...`);
 
   return await Model.findOne({ where: { email: email } });
-
 };
 const findById = async (id: string) => {
-  logger.info(` ${NAMESPACE} :  find student by id starting ...`);
-  let user ; 
-   user = await Student.findByPk(id);
-   if(!user) user = await Teacher.findByPk(id)
+  logger.info(` ${NAMESPACE} :  findbyid starting ...`);
+  let user;
+  user = await Student.findByPk(id);
+  if (!user) user = await Teacher.findByPk(id);
 
-   return user;
-
+  return user;
+};
+const findStudentbyId = async (id: string) => {
+  logger.info(` ${NAMESPACE} :  findstudent by id starting ...`);
+  return await Student.findByPk(id);
 };
 
 const findBy = async (phone?: string, email?: string) => {
@@ -93,6 +95,7 @@ export const userdatabase = {
   createUser,
   destroyToken,
   findById,
+  findStudentbyId,
   updateObject,
   findToken,
 };

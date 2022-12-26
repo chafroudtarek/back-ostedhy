@@ -44,10 +44,25 @@ export const subscribeToChapter = async (data: any) => {
 };
 export const subscribeToSubject = async (data: any) => {
   logger.info(` ${NAMESPACE} :  subscribeToSubject starting ...`);
-  const { studentId, subjectId } = data;
+  const { studentId, subjectId, points } = data;
   if (!studentId || !subjectId) {
     throw new ApplicationError(HTTPError.INVALID_DATA);
   }
+  const subscribe = await database.getStudentSubject(studentId, subjectId);
+  if (subscribe) {
+    throw new ApplicationError(STUDENTError.SUBSCRIBED);
+  }
+  const student = await userdatabase.findStudentbyId(studentId);
+  if (student) {
+    await userdatabase.updateObject(
+      student,
+      { solde: Number(student?.solde) + Number(points) },
+      studentId
+    );
+  } else {
+    throw new ApplicationError(HTTPError.INVALID_DATA);
+  }
+
   const object = new SubjectStudent({
     studentId,
     subjectId,
@@ -80,12 +95,11 @@ export const uploadAvatar = async (data: any, id: string) => {
 };
 
 export const deleteStudentImage = async (id: string) => {
-  const user = await userdatabase.findById(id)
-  console.log("user is ",user)
-  if(user!.image == '') throw new ApplicationError(STUDENTError.NOT_FOUND)
-  
+  const user = await userdatabase.findById(id);
+  console.log("user is ", user);
+  if (user!.image == "") throw new ApplicationError(STUDENTError.NOT_FOUND);
 
-  await database.updateOne(Student, { image: '' }, id);
+  await database.updateOne(Student, { image: "" }, id);
   return {
     message: "image successfully deleted",
   };

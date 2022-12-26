@@ -12,6 +12,7 @@ import token from "../utils/gTokenForTest";
 import { createValidationFor } from "../utils/validation";
 import { service } from "../services/auth.service";
 import { Teacher } from "../database/models/Teacher.model";
+import { userdatabase } from "../database/repositories/user.database";
 
 beforeAll(() => {
   return connection.sync();
@@ -136,5 +137,13 @@ describe("Auth service : endpoints", () => {
       accessToken: response.accessToken,
       refreshToken: token,
     });
+  });
+
+  it("getloggn user with valid id should return the user ", async () => {
+    const response = await service.getLoggenInUser("1");
+    const targetuser = await userdatabase.findById("1");
+    console.log("getloggneuser", response);
+
+    expect(response.user).toEqual(targetuser);
   });
 });

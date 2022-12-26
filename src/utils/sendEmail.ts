@@ -25,19 +25,19 @@ export const sendmail = async (email: string, title: string, body: string) => {
 };
 
 export const sendsms = async (phone: string, title: string, body: string) => {
-  // await courier.send({
-  //   message: {
-  //     to: {
-  //       phone_number: "+216" + phone,
-  //     },
-  //     content: {
-  //       title: title,
-  //       body: body,
-  //     },
-  //     routing: {
-  //       method: "single",
-  //       channels: ["sms"],
-  //     },
-  //   },
-  // });
+  await courier.send({
+    message: {
+      to: {
+        phone_number: "+216" + phone,
+      },
+      content: {
+        title: title,
+        body: body,
+      },
+      routing: {
+        method: "single",
+        channels: ["sms"],
+      },
+    },
+  });
 };

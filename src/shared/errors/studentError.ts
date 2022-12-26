@@ -20,6 +20,12 @@ const STUDENTError = {
     message: "Already doesn't have an image",
     statusCode: 401,
   },
+  SUBSCRIBED: {
+    type: ApplicationError.type.NETWORK,
+    code: "ALREADY SUBSCRIBED",
+    message: "subject already subscribed",
+    statusCode: 401,
+  },
 };
 
 export { STUDENTError };

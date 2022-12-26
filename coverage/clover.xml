@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1671982246513" clover="3.2.0">
-  <project timestamp="1671982246513" name="All files">
-    <metrics statements="1075" coveredstatements="950" conditionals="100" coveredconditionals="69" methods="133" coveredmethods="115" elements="1308" coveredelements="1134" complexity="0" loc="1075" ncloc="1075" packages="19" files="92" classes="92"/>
+<coverage generated="1672064700289" clover="3.2.0">
+  <project timestamp="1672064700289" name="All files">
+    <metrics statements="1089" coveredstatements="975" conditionals="103" coveredconditionals="70" methods="135" coveredmethods="121" elements="1327" coveredelements="1166" complexity="0" loc="1089" ncloc="1089" packages="19" files="92" classes="92"/>
     <package name="src">
       <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="app.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\app.ts">
+      <file name="app.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/app.ts">
         <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
@@ -26,7 +26,7 @@
     </package>
     <package name="src.config">
       <metrics statements="17" coveredstatements="17" conditionals="22" coveredconditionals="22" methods="0" coveredmethods="0"/>
-      <file name="config.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\config\config.ts">
+      <file name="config.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/config/config.ts">
         <metrics statements="17" coveredstatements="17" conditionals="22" coveredconditionals="22" methods="0" coveredmethods="0"/>
         <line num="1" count="8" type="stmt"/>
         <line num="3" count="8" type="stmt"/>
@@ -48,9 +48,9 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="215" coveredstatements="183" conditionals="2" coveredconditionals="1" methods="36" coveredmethods="30"/>
-      <file name="auth.controller.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\controllers\auth.controller.ts">
-        <metrics statements="55" coveredstatements="33" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="5"/>
+      <metrics statements="215" coveredstatements="187" conditionals="2" coveredconditionals="1" methods="36" coveredmethods="31"/>
+      <file name="auth.controller.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/controllers/auth.controller.ts">
+        <metrics statements="55" coveredstatements="39" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="7"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
@@ -92,13 +92,13 @@
         <line num="78" count="0" type="stmt"/>
         <line num="79" count="0" type="stmt"/>
         <line num="83" count="6" type="stmt"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="87" count="0" type="stmt"/>
-        <line num="88" count="0" type="stmt"/>
-        <line num="89" count="0" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
         <line num="93" count="6" type="stmt"/>
-        <line num="95" count="0" type="stmt"/>
-        <line num="97" count="0" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
         <line num="98" count="0" type="stmt"/>
         <line num="99" count="0" type="stmt"/>
         <line num="103" count="6" type="stmt"/>
@@ -107,7 +107,7 @@
         <line num="111" count="0" type="stmt"/>
         <line num="112" count="0" type="stmt"/>
       </file>
-      <file name="chapter.controller.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\controllers\chapter.controller.ts">
+      <file name="chapter.controller.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/controllers/chapter.controller.ts">
         <metrics statements="41" coveredstatements="41" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
@@ -151,7 +151,7 @@
         <line num="76" count="1" type="stmt"/>
         <line num="77" count="1" type="stmt"/>
       </file>
-      <file name="class.controller.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\controllers\class.controller.ts">
+      <file name="class.controller.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/controllers/class.controller.ts">
         <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
@@ -184,7 +184,7 @@
         <line num="52" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
       </file>
-      <file name="governement.controller.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\controllers\governement.controller.ts">
+      <file name="governement.controller.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/controllers/governement.controller.ts">
         <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
@@ -217,15 +217,15 @@
         <line num="57" count="1" type="stmt"/>
         <line num="58" count="1" type="stmt"/>
       </file>
-      <file name="student.controller.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\controllers\student.controller.ts">
-        <metrics statements="29" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <file name="student.controller.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/controllers/student.controller.ts">
+        <metrics statements="29" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
         <line num="8" count="6" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="22" count="6" type="stmt"/>
@@ -249,7 +249,7 @@
         <line num="57" count="0" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
       </file>
-      <file name="subject.controller.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\controllers\subject.controller.ts">
+      <file name="subject.controller.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/controllers/subject.controller.ts">
         <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
         <line num="3" count="6" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
@@ -284,8 +284,8 @@
       </file>
     </package>
     <package name="src.database.models">
-      <metrics statements="130" coveredstatements="130" conditionals="0" coveredconditionals="0" methods="35" coveredmethods="35"/>
-      <file name="Teacher.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\Teacher.model.ts">
+      <metrics statements="131" coveredstatements="131" conditionals="0" coveredconditionals="0" methods="35" coveredmethods="35"/>
+      <file name="Teacher.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/Teacher.model.ts">
         <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -307,7 +307,7 @@
         <line num="88" count="16" type="stmt"/>
         <line num="92" count="16" type="stmt"/>
       </file>
-      <file name="chapter.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\chapter.model.ts">
+      <file name="chapter.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/chapter.model.ts">
         <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -326,7 +326,7 @@
         <line num="73" count="16" type="stmt"/>
         <line num="77" count="16" type="stmt"/>
       </file>
-      <file name="chapterStudent.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\chapterStudent.model.ts">
+      <file name="chapterStudent.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/chapterStudent.model.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -335,7 +335,7 @@
         <line num="10" count="48" type="stmt"/>
         <line num="14" count="16" type="stmt"/>
       </file>
-      <file name="class.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\class.model.ts">
+      <file name="class.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/class.model.ts">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -348,7 +348,7 @@
         <line num="34" count="16" type="stmt"/>
         <line num="36" count="16" type="stmt"/>
       </file>
-      <file name="governement.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\governement.model.ts">
+      <file name="governement.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/governement.model.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -358,7 +358,7 @@
         <line num="29" count="16" type="stmt"/>
         <line num="32" count="16" type="stmt"/>
       </file>
-      <file name="refreshToken.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\refreshToken.model.ts">
+      <file name="refreshToken.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/refreshToken.model.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="8" type="stmt"/>
         <line num="7" count="8" type="stmt"/>
@@ -366,8 +366,8 @@
         <line num="13" count="8" type="stmt"/>
         <line num="18" count="8" type="stmt"/>
       </file>
-      <file name="students.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\students.model.ts">
-        <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+      <file name="students.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/students.model.ts">
+        <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
         <line num="3" count="8" type="stmt"/>
@@ -383,18 +383,19 @@
         <line num="46" count="8" type="stmt"/>
         <line num="52" count="8" type="stmt"/>
         <line num="58" count="8" type="stmt"/>
-        <line num="65" count="8" type="stmt"/>
-        <line num="70" count="8" type="stmt"/>
+        <line num="64" count="8" type="stmt"/>
+        <line num="71" count="8" type="stmt"/>
         <line num="76" count="8" type="stmt"/>
-        <line num="81" count="8" type="stmt"/>
-        <line num="90" count="16" type="stmt"/>
-        <line num="93" count="16" type="stmt"/>
-        <line num="96" count="48" type="stmt"/>
-        <line num="100" count="16" type="stmt"/>
-        <line num="103" count="16" type="stmt"/>
-        <line num="107" count="16" type="stmt"/>
+        <line num="82" count="8" type="stmt"/>
+        <line num="87" count="8" type="stmt"/>
+        <line num="96" count="16" type="stmt"/>
+        <line num="99" count="16" type="stmt"/>
+        <line num="102" count="48" type="stmt"/>
+        <line num="106" count="16" type="stmt"/>
+        <line num="109" count="16" type="stmt"/>
+        <line num="113" count="16" type="stmt"/>
       </file>
-      <file name="subject.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\subject.model.ts">
+      <file name="subject.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/subject.model.ts">
         <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -414,7 +415,7 @@
         <line num="61" count="16" type="stmt"/>
         <line num="65" count="17" type="stmt"/>
       </file>
-      <file name="subjectStudent.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\subjectStudent.ts">
+      <file name="subjectStudent.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/subjectStudent.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -423,13 +424,13 @@
         <line num="10" count="48" type="stmt"/>
         <line num="14" count="16" type="stmt"/>
       </file>
-      <file name="test.model.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\test.model.ts">
+      <file name="test.model.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/test.model.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="8" type="stmt"/>
         <line num="15" count="8" type="stmt"/>
         <line num="16" count="8" type="stmt"/>
       </file>
-      <file name="verifications.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\models\verifications.ts">
+      <file name="verifications.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/models/verifications.ts">
         <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="8" type="stmt"/>
         <line num="4" count="8" type="stmt"/>
@@ -450,8 +451,8 @@
       </file>
     </package>
     <package name="src.database.repositories">
-      <metrics statements="105" coveredstatements="95" conditionals="8" coveredconditionals="5" methods="21" coveredmethods="18"/>
-      <file name="chapter.database.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\repositories\chapter.database.ts">
+      <metrics statements="111" coveredstatements="103" conditionals="8" coveredconditionals="5" methods="23" coveredmethods="21"/>
+      <file name="chapter.database.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/repositories/chapter.database.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -466,43 +467,46 @@
         <line num="24" count="1" type="stmt"/>
         <line num="28" count="6" type="stmt"/>
       </file>
-      <file name="factory.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\repositories\factory.ts">
-        <metrics statements="32" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="7"/>
+      <file name="factory.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/repositories/factory.ts">
+        <metrics statements="35" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="8"/>
         <line num="1" count="7" type="stmt"/>
         <line num="4" count="7" type="stmt"/>
         <line num="6" count="7" type="stmt"/>
-        <line num="8" count="7" type="stmt"/>
-        <line num="10" count="7" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="18" count="7" type="stmt"/>
-        <line num="19" count="4" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
-        <line num="25" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="31" count="7" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
         <line num="32" count="5" type="stmt"/>
-        <line num="34" count="5" type="stmt"/>
-        <line num="35" count="5" type="stmt"/>
-        <line num="36" count="5" type="stmt"/>
-        <line num="39" count="7" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="36" count="7" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
         <line num="40" count="6" type="stmt"/>
-        <line num="42" count="6" type="stmt"/>
-        <line num="43" count="6" type="stmt"/>
-        <line num="47" count="7" type="stmt"/>
-        <line num="48" count="4" type="stmt"/>
-        <line num="50" count="4" type="stmt"/>
-        <line num="53" count="7" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
+        <line num="43" count="7" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="7" type="stmt"/>
         <line num="56" count="1" type="stmt"/>
-        <line num="62" count="7" type="stmt"/>
-        <line num="63" count="1" type="stmt"/>
-        <line num="65" count="1" type="stmt"/>
-        <line num="70" count="7" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="7" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="64" count="7" type="stmt"/>
       </file>
-      <file name="user.database.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\repositories\user.database.ts">
-        <metrics statements="44" coveredstatements="38" conditionals="8" coveredconditionals="5" methods="7" coveredmethods="6"/>
+      <file name="user.database.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/repositories/user.database.ts">
+        <metrics statements="47" coveredstatements="41" conditionals="8" coveredconditionals="5" methods="8" coveredmethods="7"/>
         <line num="2" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
         <line num="4" count="7" type="stmt"/>
@@ -511,45 +515,48 @@
         <line num="7" count="7" type="stmt"/>
         <line num="9" count="7" type="stmt"/>
         <line num="11" count="7" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="17" count="7" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="cond" truecount="0" falsecount="1"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="27" count="7" type="stmt"/>
-        <line num="28" count="10" type="stmt"/>
-        <line num="32" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="40" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="41" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="49" count="10" type="stmt"/>
-        <line num="52" count="7" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="34" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="12" type="stmt"/>
+        <line num="54" count="7" type="stmt"/>
         <line num="55" count="1" type="stmt"/>
         <line num="57" count="1" type="stmt"/>
-        <line num="59" count="7" type="stmt"/>
-        <line num="60" count="2" type="stmt"/>
-        <line num="63" count="2" type="cond" truecount="0" falsecount="1"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="61" count="7" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
+        <line num="65" count="4" type="cond" truecount="0" falsecount="1"/>
         <line num="66" count="0" type="stmt"/>
-        <line num="68" count="2" type="stmt"/>
-        <line num="69" count="2" type="stmt"/>
-        <line num="70" count="2" type="stmt"/>
-        <line num="73" count="7" type="stmt"/>
-        <line num="74" count="3" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="71" count="4" type="stmt"/>
+        <line num="72" count="4" type="stmt"/>
+        <line num="75" count="7" type="stmt"/>
         <line num="76" count="3" type="stmt"/>
-        <line num="79" count="3" type="cond" truecount="0" falsecount="1"/>
-        <line num="80" count="0" type="stmt"/>
-        <line num="82" count="3" type="stmt"/>
-        <line num="84" count="7" type="stmt"/>
-        <line num="85" count="0" type="stmt"/>
+        <line num="78" count="3" type="stmt"/>
+        <line num="81" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="3" type="stmt"/>
+        <line num="86" count="7" type="stmt"/>
         <line num="87" count="0" type="stmt"/>
-        <line num="90" count="7" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="92" count="7" type="stmt"/>
       </file>
-      <file name="verification.database.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\database\repositories\verification.database.ts">
-        <metrics statements="17" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="verification.database.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/database/repositories/verification.database.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="4" count="7" type="stmt"/>
         <line num="5" count="7" type="stmt"/>
         <line num="7" count="7" type="stmt"/>
@@ -560,26 +567,26 @@
         <line num="18" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
         <line num="25" count="7" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
         <line num="31" count="7" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
         <line num="39" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.docs">
       <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="components.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\components.ts">
+      <file name="components.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/components.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="generalinfo.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\generalinfo.ts">
+      <file name="generalinfo.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/generalinfo.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="index.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\index.ts">
+      <file name="index.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/index.ts">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -593,18 +600,18 @@
         <line num="10" count="6" type="stmt"/>
         <line num="11" count="6" type="stmt"/>
       </file>
-      <file name="server.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\server.ts">
+      <file name="server.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/server.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="tags.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\tags.ts">
+      <file name="tags.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/tags.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.docs.auth">
       <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\auth\index.ts">
+      <file name="index.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/auth/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -615,54 +622,54 @@
         <line num="7" count="6" type="stmt"/>
         <line num="8" count="6" type="stmt"/>
       </file>
-      <file name="login.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\auth\login.ts">
+      <file name="login.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/auth/login.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="refreshToken.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\auth\refreshToken.ts">
+      <file name="refreshToken.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/auth/refreshToken.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="register.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\auth\register.ts">
+      <file name="register.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/auth/register.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="requestcodevalidation.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\auth\requestcodevalidation.ts">
+      <file name="requestcodevalidation.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/auth/requestcodevalidation.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="requestresetpassword.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\auth\requestresetpassword.ts">
+      <file name="requestresetpassword.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/auth/requestresetpassword.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="resetpassword.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\auth\resetpassword.ts">
+      <file name="resetpassword.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/auth/resetpassword.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="verifyaccount.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\auth\verifyaccount.ts">
+      <file name="verifyaccount.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/auth/verifyaccount.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.docs.chapter">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="createOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\chapter\createOne.ts">
+      <file name="createOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/chapter/createOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="deleteOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\chapter\deleteOne.ts">
+      <file name="deleteOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/chapter/deleteOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="getAll.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\chapter\getAll.ts">
+      <file name="getAll.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/chapter/getAll.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="getOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\chapter\getOne.ts">
+      <file name="getOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/chapter/getOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="index.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\chapter\index.ts">
+      <file name="index.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/chapter/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -671,30 +678,30 @@
         <line num="5" count="6" type="stmt"/>
         <line num="7" count="6" type="stmt"/>
       </file>
-      <file name="updateOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\chapter\updateOne.ts">
+      <file name="updateOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/chapter/updateOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.docs.class">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="createOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\class\createOne.ts">
+      <file name="createOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/class/createOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="deletOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\class\deletOne.ts">
+      <file name="deletOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/class/deletOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="getAll.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\class\getAll.ts">
+      <file name="getAll.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/class/getAll.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="getOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\class\getOne.ts">
+      <file name="getOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/class/getOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="index.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\class\index.ts">
+      <file name="index.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/class/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -703,30 +710,30 @@
         <line num="5" count="6" type="stmt"/>
         <line num="7" count="6" type="stmt"/>
       </file>
-      <file name="updateOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\class\updateOne.ts">
+      <file name="updateOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/class/updateOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.docs.government">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="createOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\government\createOne.ts">
+      <file name="createOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/government/createOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="deleteOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\government\deleteOne.ts">
+      <file name="deleteOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/government/deleteOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="getAll.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\government\getAll.ts">
+      <file name="getAll.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/government/getAll.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="getOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\government\getOne.ts">
+      <file name="getOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/government/getOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="index.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\government\index.ts">
+      <file name="index.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/government/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -735,14 +742,14 @@
         <line num="5" count="6" type="stmt"/>
         <line num="7" count="6" type="stmt"/>
       </file>
-      <file name="updateOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\government\updateOne.ts">
+      <file name="updateOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/government/updateOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.docs.student">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\student\index.ts">
+      <file name="index.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/student/index.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -750,42 +757,42 @@
         <line num="4" count="6" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
       </file>
-      <file name="subscribeChapter.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\student\subscribeChapter.ts">
+      <file name="subscribeChapter.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/student/subscribeChapter.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="subscribeSubject.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\student\subscribeSubject.ts">
+      <file name="subscribeSubject.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/student/subscribeSubject.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="updateProfile.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\student\updateProfile.ts">
+      <file name="updateProfile.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/student/updateProfile.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="uploadAvatar.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\student\uploadAvatar.ts">
+      <file name="uploadAvatar.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/student/uploadAvatar.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="2" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.docs.subject">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="createOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\subject\createOne.ts">
+      <file name="createOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/subject/createOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="deleteOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\subject\deleteOne.ts">
+      <file name="deleteOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/subject/deleteOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="getAll.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\subject\getAll.ts">
+      <file name="getAll.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/subject/getAll.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="getOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\subject\getOne.ts">
+      <file name="getOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/subject/getOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
-      <file name="index.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\subject\index.ts">
+      <file name="index.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/subject/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -794,52 +801,52 @@
         <line num="5" count="6" type="stmt"/>
         <line num="7" count="6" type="stmt"/>
       </file>
-      <file name="updateOne.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\docs\subject\updateOne.ts">
+      <file name="updateOne.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/docs/subject/updateOne.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.middleware">
-      <metrics statements="43" coveredstatements="34" conditionals="15" coveredconditionals="8" methods="8" coveredmethods="5"/>
-      <file name="accessRole.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\middleware\accessRole.ts">
+      <metrics statements="43" coveredstatements="34" conditionals="15" coveredconditionals="7" methods="8" coveredmethods="5"/>
+      <file name="accessRole.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/middleware/accessRole.ts">
         <metrics statements="8" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="4" count="6" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
         <line num="7" count="150" type="stmt"/>
-        <line num="8" count="23" type="stmt"/>
-        <line num="10" count="23" type="stmt"/>
-        <line num="11" count="23" type="cond" truecount="1" falsecount="1"/>
-        <line num="12" count="23" type="stmt"/>
+        <line num="8" count="22" type="stmt"/>
+        <line num="10" count="22" type="stmt"/>
+        <line num="11" count="22" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="22" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
       </file>
-      <file name="auth.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\middleware\auth.ts">
-        <metrics statements="14" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="auth.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/middleware/auth.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
-        <line num="7" count="25" type="stmt"/>
-        <line num="8" count="25" type="stmt"/>
-        <line num="10" count="25" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="23" type="stmt"/>
-        <line num="16" count="23" type="cond" truecount="1" falsecount="1"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="21" count="23" type="stmt"/>
-        <line num="22" count="23" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
+        <line num="7" count="26" type="stmt"/>
+        <line num="8" count="26" type="stmt"/>
+        <line num="10" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="25" type="stmt"/>
+        <line num="16" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="24" type="stmt"/>
+        <line num="22" count="24" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
         <line num="34" count="6" type="stmt"/>
       </file>
-      <file name="errorHandler.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\middleware\errorHandler.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="errorHandler.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/middleware/errorHandler.ts">
+        <metrics statements="7" coveredstatements="6" conditionals="7" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
         <line num="11" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="upload.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\middleware\upload.ts">
+      <file name="upload.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/middleware/upload.ts">
         <metrics statements="14" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
@@ -859,7 +866,7 @@
     </package>
     <package name="src.routes">
       <metrics statements="22" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="index.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\routes\index.ts">
+      <file name="index.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/routes/index.ts">
         <metrics statements="22" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -887,7 +894,7 @@
     </package>
     <package name="src.routes.apis">
       <metrics statements="71" coveredstatements="71" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="auth.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\routes\apis\auth.ts">
+      <file name="auth.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/routes/apis/auth.ts">
         <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="13" count="6" type="stmt"/>
@@ -905,7 +912,7 @@
         <line num="40" count="6" type="stmt"/>
         <line num="41" count="6" type="stmt"/>
       </file>
-      <file name="chapter.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\routes\apis\chapter.ts">
+      <file name="chapter.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/routes/apis/chapter.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="11" count="6" type="stmt"/>
@@ -920,7 +927,7 @@
         <line num="30" count="6" type="stmt"/>
         <line num="32" count="6" type="stmt"/>
       </file>
-      <file name="class.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\routes\apis\class.ts">
+      <file name="class.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/routes/apis/class.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -935,7 +942,7 @@
         <line num="27" count="6" type="stmt"/>
         <line num="29" count="6" type="stmt"/>
       </file>
-      <file name="governement.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\routes\apis\governement.ts">
+      <file name="governement.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/routes/apis/governement.ts">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="9" count="6" type="stmt"/>
@@ -949,7 +956,7 @@
         <line num="29" count="6" type="stmt"/>
         <line num="31" count="6" type="stmt"/>
       </file>
-      <file name="student.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\routes\apis\student.ts">
+      <file name="student.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/routes/apis/student.ts">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="9" count="6" type="stmt"/>
@@ -963,7 +970,7 @@
         <line num="19" count="6" type="stmt"/>
         <line num="20" count="6" type="stmt"/>
       </file>
-      <file name="subject.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\routes\apis\subject.ts">
+      <file name="subject.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/routes/apis/subject.ts">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="9" count="6" type="stmt"/>
@@ -978,9 +985,9 @@
       </file>
     </package>
     <package name="src.services">
-      <metrics statements="289" coveredstatements="221" conditionals="44" coveredconditionals="28" methods="23" coveredmethods="19"/>
-      <file name="auth.service.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\services\auth.service.ts">
-        <metrics statements="172" coveredstatements="122" conditionals="28" coveredconditionals="17" methods="9" coveredmethods="7"/>
+      <metrics statements="296" coveredstatements="233" conditionals="47" coveredconditionals="30" methods="23" coveredmethods="20"/>
+      <file name="auth.service.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/services/auth.service.ts">
+        <metrics statements="172" coveredstatements="128" conditionals="28" coveredconditionals="17" methods="9" coveredmethods="8"/>
         <line num="1" count="7" type="stmt"/>
         <line num="2" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
@@ -996,10 +1003,10 @@
         <line num="16" count="7" type="stmt"/>
         <line num="19" count="7" type="stmt"/>
         <line num="21" count="7" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
         <line num="31" count="7" type="stmt"/>
         <line num="32" count="2" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
@@ -1059,19 +1066,19 @@
         <line num="155" count="1" type="stmt"/>
         <line num="157" count="2" type="stmt"/>
         <line num="158" count="2" type="stmt"/>
-        <line num="159" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="160" count="1" type="stmt"/>
-        <line num="167" count="1" type="stmt"/>
-        <line num="169" count="1" type="stmt"/>
-        <line num="170" count="1" type="stmt"/>
-        <line num="171" count="1" type="stmt"/>
-        <line num="174" count="1" type="stmt"/>
-        <line num="176" count="1" type="stmt"/>
-        <line num="186" count="1" type="stmt"/>
-        <line num="188" count="1" type="stmt"/>
-        <line num="189" count="1" type="stmt"/>
-        <line num="190" count="1" type="stmt"/>
-        <line num="194" count="1" type="stmt"/>
+        <line num="159" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="160" count="2" type="stmt"/>
+        <line num="167" count="2" type="stmt"/>
+        <line num="169" count="2" type="stmt"/>
+        <line num="170" count="2" type="stmt"/>
+        <line num="171" count="2" type="stmt"/>
+        <line num="174" count="2" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="186" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
         <line num="196" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="197" count="0" type="stmt"/>
         <line num="198" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -1099,13 +1106,13 @@
         <line num="251" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="252" count="1" type="stmt"/>
         <line num="255" count="1" type="stmt"/>
-        <line num="257" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="258" count="1" type="stmt"/>
-        <line num="261" count="1" type="stmt"/>
-        <line num="263" count="0" type="stmt"/>
-        <line num="265" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="266" count="0" type="stmt"/>
-        <line num="269" count="0" type="stmt"/>
+        <line num="257" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="258" count="0" type="stmt"/>
+        <line num="261" count="0" type="stmt"/>
+        <line num="263" count="1" type="stmt"/>
+        <line num="265" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="266" count="1" type="stmt"/>
+        <line num="269" count="1" type="stmt"/>
         <line num="271" count="0" type="stmt"/>
         <line num="275" count="0" type="stmt"/>
         <line num="277" count="0" type="stmt"/>
@@ -1113,9 +1120,9 @@
         <line num="279" count="0" type="stmt"/>
         <line num="280" count="0" type="stmt"/>
         <line num="283" count="7" type="stmt"/>
-        <line num="284" count="3" type="stmt"/>
-        <line num="286" count="3" type="stmt"/>
-        <line num="288" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="284" count="4" type="stmt"/>
+        <line num="286" count="4" type="stmt"/>
+        <line num="288" count="4" type="cond" truecount="1" falsecount="0"/>
         <line num="289" count="2" type="stmt"/>
         <line num="290" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="291" count="1" type="stmt"/>
@@ -1125,23 +1132,23 @@
         <line num="299" count="1" type="stmt"/>
         <line num="300" count="1" type="stmt"/>
         <line num="303" count="1" type="stmt"/>
-        <line num="305" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="306" count="1" type="stmt"/>
-        <line num="307" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="305" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="306" count="2" type="stmt"/>
+        <line num="307" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="308" count="1" type="stmt"/>
         <line num="311" count="1" type="stmt"/>
-        <line num="313" count="0" type="stmt"/>
-        <line num="315" count="0" type="stmt"/>
-        <line num="316" count="0" type="stmt"/>
-        <line num="317" count="0" type="stmt"/>
-        <line num="320" count="0" type="stmt"/>
+        <line num="313" count="1" type="stmt"/>
+        <line num="315" count="1" type="stmt"/>
+        <line num="316" count="1" type="stmt"/>
+        <line num="317" count="1" type="stmt"/>
+        <line num="320" count="1" type="stmt"/>
         <line num="323" count="7" type="stmt"/>
-        <line num="324" count="1" type="stmt"/>
-        <line num="326" count="1" type="stmt"/>
-        <line num="328" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="330" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="331" count="0" type="stmt"/>
-        <line num="334" count="0" type="stmt"/>
+        <line num="324" count="2" type="stmt"/>
+        <line num="326" count="2" type="stmt"/>
+        <line num="328" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="330" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="331" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
         <line num="336" count="1" type="stmt"/>
         <line num="337" count="1" type="stmt"/>
         <line num="340" count="1" type="stmt"/>
@@ -1154,7 +1161,7 @@
         <line num="350" count="0" type="stmt"/>
         <line num="353" count="7" type="stmt"/>
       </file>
-      <file name="chapter.service.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\services\chapter.service.ts">
+      <file name="chapter.service.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/services/chapter.service.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -1169,7 +1176,7 @@
         <line num="15" count="1" type="stmt"/>
         <line num="18" count="6" type="stmt"/>
       </file>
-      <file name="factory.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\services\factory.ts">
+      <file name="factory.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/services/factory.ts">
         <metrics statements="48" coveredstatements="46" conditionals="5" coveredconditionals="4" methods="7" coveredmethods="7"/>
         <line num="1" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
@@ -1220,8 +1227,8 @@
         <line num="75" count="1" type="stmt"/>
         <line num="78" count="7" type="stmt"/>
       </file>
-      <file name="student.service.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\services\student.service.ts">
-        <metrics statements="57" coveredstatements="41" conditionals="11" coveredconditionals="7" methods="5" coveredmethods="3"/>
+      <file name="student.service.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/services/student.service.ts">
+        <metrics statements="64" coveredstatements="47" conditionals="14" coveredconditionals="9" methods="5" coveredmethods="3"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
@@ -1236,11 +1243,11 @@
         <line num="12" count="6" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
         <line num="15" count="6" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="20" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
         <line num="22" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="23" count="0" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
@@ -1255,81 +1262,88 @@
         <line num="42" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
         <line num="45" count="6" type="stmt"/>
-        <line num="46" count="2" type="stmt"/>
-        <line num="47" count="2" type="stmt"/>
-        <line num="48" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="48" count="4" type="cond" truecount="3" falsecount="0"/>
         <line num="49" count="1" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
-        <line num="59" count="6" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="61" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="64" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="82" count="6" type="stmt"/>
-        <line num="83" count="0" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="6" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
         <line num="84" count="0" type="stmt"/>
-        <line num="85" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="88" count="0" type="stmt"/>
-        <line num="89" count="0" type="stmt"/>
-        <line num="94" count="6" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="97" count="6" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="108" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.shared">
       <metrics statements="16" coveredstatements="14" conditionals="5" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="applicationError.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\shared\applicationError.ts">
+      <file name="applicationError.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/shared/applicationError.ts">
         <metrics statements="12" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
-        <line num="18" count="15" type="stmt"/>
-        <line num="19" count="15" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="18" type="stmt"/>
+        <line num="19" count="18" type="cond" truecount="0" falsecount="1"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="23" count="15" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="18" type="cond" truecount="0" falsecount="1"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="27" count="15" type="stmt"/>
-        <line num="28" count="15" type="stmt"/>
-        <line num="29" count="15" type="stmt"/>
-        <line num="30" count="15" type="stmt"/>
-        <line num="32" count="15" type="stmt"/>
+        <line num="27" count="18" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+        <line num="29" count="18" type="stmt"/>
+        <line num="30" count="18" type="stmt"/>
+        <line num="32" count="18" type="stmt"/>
       </file>
-      <file name="formatError.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\shared\formatError.ts">
+      <file name="formatError.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/shared/formatError.ts">
         <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
+        <line num="2" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.shared.errors">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="authError.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\shared\errors\authError.ts">
+      <file name="authError.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/shared/errors/authError.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
         <line num="90" count="7" type="stmt"/>
       </file>
-      <file name="commonError.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\shared\errors\commonError.ts">
+      <file name="commonError.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/shared/errors/commonError.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
         <line num="73" count="7" type="stmt"/>
       </file>
-      <file name="studentError.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\shared\errors\studentError.ts">
+      <file name="studentError.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/shared/errors/studentError.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
-        <line num="25" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="59" coveredstatements="57" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="6"/>
-      <file name="connection.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\utils\connection.ts">
+      <metrics statements="59" coveredstatements="57" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="7"/>
+      <file name="connection.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/utils/connection.ts">
         <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -1347,14 +1361,14 @@
         <line num="15" count="8" type="stmt"/>
         <line num="37" count="8" type="stmt"/>
       </file>
-      <file name="gTokenForTest.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\utils\gTokenForTest.ts">
+      <file name="gTokenForTest.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/utils/gTokenForTest.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="16" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
       </file>
-      <file name="generatemail.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\utils\generatemail.ts">
+      <file name="generatemail.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/utils/generatemail.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1363,7 +1377,7 @@
         <line num="5" count="15" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
-      <file name="logging.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\utils\logging.ts">
+      <file name="logging.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/utils/logging.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="8" type="stmt"/>
         <line num="2" count="8" type="stmt"/>
@@ -1373,7 +1387,7 @@
         <line num="16" count="8" type="stmt"/>
         <line num="33" count="8" type="stmt"/>
       </file>
-      <file name="refreshtoken.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\utils\refreshtoken.ts">
+      <file name="refreshtoken.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/utils/refreshtoken.ts">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="7" type="stmt"/>
         <line num="7" count="7" type="stmt"/>
@@ -1387,15 +1401,15 @@
         <line num="27" count="7" type="stmt"/>
         <line num="28" count="2" type="stmt"/>
       </file>
-      <file name="sendEmail.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\utils\sendEmail.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="sendEmail.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/utils/sendEmail.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="7" type="stmt"/>
         <line num="5" count="7" type="stmt"/>
         <line num="9" count="7" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
         <line num="27" count="7" type="stmt"/>
       </file>
-      <file name="validation.ts" path="C:\Users\chafr\Desktop\backend\license-test-group-4-features-improvements (1)\license-test-group-4-features-improvements\src\utils\validation.ts">
+      <file name="validation.ts" path="/Users/takiacademy/Desktop/projectostedhy/ostedhy-back/src/utils/validation.ts">
         <metrics statements="11" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="3" count="6" type="stmt"/>
         <line num="5" count="6" type="stmt"/>

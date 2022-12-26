@@ -56,7 +56,7 @@ export class Subject extends Model {
   declare classId: number;
 
   @BelongsTo(() => Class)
-  declare class: Class;
+  declare classe: Class;
 
   @ForeignKey(() => Teacher)
   @Column

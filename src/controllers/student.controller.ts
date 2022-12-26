@@ -59,5 +59,3 @@ export const DeleteStudentImage = asyncHandler(
     logger.info(` ${NAMESPACE} : DeleteStudentImage get terminated ...`);
   }
 );
-
-

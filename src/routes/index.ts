@@ -12,7 +12,7 @@ const router = express.Router();
 
 router.use("/api/class", classe);
 router.use("/api/governement", governement);
-router.use("/api/subject", auth,subject);
+router.use("/api/subject", auth, subject);
 router.use("/api/chapter", auth, chapter);
 router.use("/api/auth", authusers);
 router.use("/api/student", auth, student);

@@ -31,11 +31,11 @@ router.post(
   checkValidationResult,
   login
 );
-router.get("/getloggenin",auth, getLoggenInUser);
+router.get("/getloggenin", auth, getLoggenInUser);
 router.get("/refresh", refreshToken);
 router.get("/requestresetpassword", requestresetpwd);
 router.post("/resetpassword", resetpassword);
-router.get("/requestcodevalidation", auth,requestcodevalidation);
-router.post("/verifyaccount", auth,verifyaccount);
-router.post("/changepassword/:id", changepassword);
+router.get("/requestcodevalidation", auth, requestcodevalidation);
+router.post("/verifyaccount", auth, verifyaccount);
+router.post("/changepassword/:id", auth, changepassword);
 export { router as authusers };

@@ -13,7 +13,7 @@ import { Student } from "./students.model";
 
 @Table({
   timestamps: false,
-  tableName: "class",
+  tableName: "classe",
 })
 export class Class extends Model {
   @Column({

@@ -1,3 +1,4 @@
+import { Model } from "sequelize-typescript";
 import { response } from "express";
 import { generateEmail } from "./../utils/generatemail";
 import { Teacher } from "./../database/models/Teacher.model";
@@ -5,12 +6,22 @@ import app from "../app";
 import request from "supertest";
 import { describe, expect, test } from "@jest/globals";
 import connection from "../utils/connection";
-import token from "../utils/gTokenForTest";
 import { createRefreshToken } from "../utils/refreshtoken";
 import { userdatabase } from "../database/repositories/user.database";
+import token from "../utils/gTokenForTest";
+import jwt_decode from "jwt-decode";
 
 beforeAll(() => connection.sync());
 afterAll(() => connection.close());
+interface TokenType {
+  id: string;
+  name: string;
+  email: string;
+  password: string;
+  role: string;
+}
+
+let decoded: TokenType = jwt_decode(token);
 
 const user = new Teacher({
   firstname: "test",
@@ -55,6 +66,7 @@ describe("Auth endpoints", () => {
     expect(response.body).toEqual({
       response: {
         message: "Register Successful",
+        accessToken: response.body.response.accessToken,
         user: {
           is_verified: false,
           role: "TEACHER",
@@ -62,6 +74,7 @@ describe("Auth endpoints", () => {
           id: response.body.response.user.id,
           firstname: "testtest",
           lastname: "testtest",
+          image: "",
           email: user.email,
           phone: "6666666",
         },
@@ -108,6 +121,7 @@ describe("Auth endpoints", () => {
           email: "admin@admin.com",
           phone: "54456521",
           birthDate: null,
+          image: "",
           is_verified: false,
           role: "ADMIN",
           codevalidation: response.body.response.user.codevalidation,
@@ -176,9 +190,9 @@ describe("Auth endpoints", () => {
   });
 
   it("request for get code validation should return successful message", async () => {
-    const response = await request(app).get(
-      "/api/auth/requestcodevalidation?phone=54456521"
-    );
+    const response = await request(app)
+      .get("/api/auth/requestcodevalidation?phone=54456521")
+      .set("Authorization", `Bearer ${token}`);
 
     expect(response.status).toEqual(200);
     expect(response.body).toEqual({
@@ -192,7 +206,8 @@ describe("Auth endpoints", () => {
   it("post for verify account with wrong code should return an error message ", async () => {
     const response = await request(app)
       .post("/api/auth/verifyaccount?email=admin@admin.com")
-      .send({ code: "45645" });
+      .send({ code: "45645" })
+      .set("Authorization", `Bearer ${token}`);
 
     expect(response.status).toEqual(400);
     expect(response.body).toEqual({
@@ -205,5 +220,25 @@ describe("Auth endpoints", () => {
       },
       success: false,
     });
+  });
+
+  it("get loggen user without token return error  message ", async () => {
+    const response = await request(app).get("/api/auth/getloggenin");
+
+    expect(response.status).toEqual(401);
+
+    expect(response.body).toEqual({
+      message: "No Token, authorization denied",
+      success: false,
+    });
+  });
+  it("get loggen user with invalid token return error ", async () => {
+    const response = await request(app)
+      .get("/api/auth/getloggenin")
+      .set("Authorization", `Bearer ${token}+432sddsd25`);
+
+    expect(response.status).toEqual(403);
+    console.log("eeererer", response.body);
+    expect(response.body).toEqual({ message: "Token is not valid" });
   });
 });

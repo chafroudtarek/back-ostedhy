@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">95% </span>
+                <span class="strong">95.34% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>38/40</span>
+                <span class='fraction'>41/43</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">87.5% </span>
+                <span class="strong">88.88% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>7/8</span>
+                <span class='fraction'>8/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">93.75% </span>
+                <span class="strong">94.28% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>30/32</span>
+                <span class='fraction'>33/35</span>
             </div>
         
             
@@ -137,16 +137,12 @@
 <a name='L72'></a><a href='#L72'>72</a>
 <a name='L73'></a><a href='#L73'>73</a>
 <a name='L74'></a><a href='#L74'>74</a>
-<a name='L75'></a><a href='#L75'>75</a>
-<a name='L76'></a><a href='#L76'>76</a>
-<a name='L77'></a><a href='#L77'>77</a>
-<a name='L78'></a><a href='#L78'>78</a>
-<a name='L79'></a><a href='#L79'>79</a>
-<a name='L80'></a><a href='#L80'>80</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">7x</span>
+<a name='L75'></a><a href='#L75'>75</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
@@ -157,13 +153,10 @@
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
@@ -171,7 +164,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -185,7 +177,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
@@ -193,7 +184,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -201,17 +191,17 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -227,6 +217,7 @@ import { Chapter } from "./../models/chapter.model";
 import { Subject } from "./../models/subject.model";
 import { Model } from "sequelize-typescript";
 import logger from "../../utils/logging";
+import { SubjectStudent } from "../models/subjectStudent";
 &nbsp;
 const NAMESPACE = "FACTORY DATABASE";
 &nbsp;
@@ -234,22 +225,18 @@ export const getAll = async (Model: any) =&gt; {
   logger.info(` ${NAMESPACE} :  getAll starting ...`);
 &nbsp;
   return await Model.findAll({});
-&nbsp;
-  
 };
 &nbsp;
 export const getOne = async (Model: any, id: string) =&gt; {
   logger.info(` ${NAMESPACE} :  getOne starting ...`);
 &nbsp;
   return await Model.findByPk(id);
- 
 };
 &nbsp;
 export const getOneByUserId = <span class="fstat-no" title="function not covered" >async </span>(Model: any, id: string) =&gt; {
 <span class="cstat-no" title="statement not covered" >  logger.info(` ${NAMESPACE} :  getOneByUserId starting ...`);</span>
 &nbsp;
 <span class="cstat-no" title="statement not covered" >  return await Model.findOne({ where: { userId: id } });</span>
- 
 };
 export const deleteOne = async (Model: any, id: string) =&gt; {
   logger.info(` ${NAMESPACE} :  deleteOne starting ...`);
@@ -264,14 +251,12 @@ export const updateOne = async (Model: any, newData: any, id: string) =&gt; {
 &nbsp;
   await Model.update(newData, { where: { id } });
   return await Model.findByPk(id);
-&nbsp;
 };
 &nbsp;
 export const createaOne = async (Model: any, data: any) =&gt; {
   logger.info(` ${NAMESPACE} :  createaOne starting ...`);
 &nbsp;
   return await Model.create(data);
- 
 };
 export const getAllSubjectsWithClass = async () =&gt; {
   logger.info(` ${NAMESPACE} :  getAllSubjectWithClass starting ...`);
@@ -279,17 +264,16 @@ export const getAllSubjectsWithClass = async () =&gt; {
   return await Subject.findAll({
     include: [Class],
   });
-&nbsp;
-  
 };
 export const getOneSubjectWithChapter = async (id: string) =&gt; {
   logger.info(` ${NAMESPACE} :  getOneSubjectWithChapter starting ...`);
 &nbsp;
   return await Subject.findByPk(id, { include: { all: true } });
-&nbsp;
- 
 };
 &nbsp;
+const getStudentSubject = async (studentId: string, subjectId: string) =&gt; {
+  return await SubjectStudent.findOne({ where: { studentId, subjectId } });
+};
 export const database = {
   getAll,
   getOne,
@@ -299,6 +283,7 @@ export const database = {
   createaOne,
   getAllSubjectsWithClass,
   getOneSubjectWithChapter,
+  getStudentSubject,
 };
 &nbsp;</pre></td></tr></table></pre>
 
@@ -307,7 +292,7 @@ export const database = {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-12-25T15:30:46.374Z
+                at 2022-12-26T14:25:00.242Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>

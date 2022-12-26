@@ -55,6 +55,12 @@ export class Student extends Model {
   })
   declare phone: string;
 
+  @Default(0)
+  @Column({
+    type: DataType.INTEGER,
+  })
+  declare solde: number;
+
   @Default(false)
   @Column({
     type: DataType.BOOLEAN,
