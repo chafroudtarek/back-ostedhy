@@ -50,7 +50,7 @@ const register = async (Model: any, data: any) => {
 
   _user.password = hash;
   const token = jwt.sign(
-    { id:  _user.id, is_verified:  _user.is_verified, role:  _user.role },
+    { id: _user.id, is_verified: _user.is_verified, role: _user.role },
     config.server.token.secret,
     {
       expiresIn: config.server.token.expireTime,
@@ -146,7 +146,7 @@ const requestresetpwd = async (data: any) => {
 
   if (data.email) {
     const user = await userdatabase.findBy(undefined, data.email);
-    console.log("user user",user)
+    console.log("user user", user);
 
     if (!user) {
       logger.error(
@@ -154,7 +154,7 @@ const requestresetpwd = async (data: any) => {
       );
       throw new ApplicationError(AuthError.NOT_FOUND);
     }
-    const link = `http://localhost:3000/resetpassword?code=${resetToken}&userId=${user.id}`;
+    const link = `https://front-ostedhy-simw.vercel.app/resetpassword?code=${resetToken}&userId=${user.id}`;
     const objectVerif = await verifdatabase.findByEmail(user.email);
     if (objectVerif) {
       let newdata = {
@@ -202,7 +202,7 @@ const requestresetpwd = async (data: any) => {
 
       throw new ApplicationError(AuthError.NOT_FOUND);
     }
-    const link = `http://localhost:3000/resetpassword?code=${resetToken}&userId=${user.id}`;
+    const link = `https://front-ostedhy-simw.vercel.app/resetpassword?code=${resetToken}&userId=${user.id}`;
     const objectVerif = await verifdatabase.findByPhone(user!.phone);
     if (objectVerif) {
       let newdata = {
@@ -247,7 +247,7 @@ const requestresetpwd = async (data: any) => {
 const resetpassword = async (data: any, newpassword: string) => {
   logger.info(` ${NAMESPACE} : starting reset password ...`);
   const verifObject = await verifdatabase.findById(data.userId);
-  console.log("verification is ", verifObject, " user id is  ",data.userId)
+  console.log("verification is ", verifObject, " user id is  ", data.userId);
   if (!verifObject) {
     logger.error(
       ` ${NAMESPACE} :  failed to find codeverification in  resetpassword function line 235`
