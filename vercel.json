@@ -8,7 +8,11 @@
   ],
   "routes": [
     {
-      "src": "./src/routes/(.*)",
+      "src": "./src/routes/index.ts",
+      "dest": "/"
+    },
+    {
+      "src": "./src/routes/app/(.*)",
       "dest": "/"
     }
   ]
