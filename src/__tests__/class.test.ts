@@ -13,7 +13,7 @@ afterAll(() => {
 
 describe("Class endpoints", () => {
   it("request for get all classes return all classes with successful message", async () => {
-    const data = await connection.query("SELECT * FROM CLASS");
+    const data = await connection.query("SELECT * FROM CLASSE");
 
     const response = await request(app)
       .get("/api/class")
@@ -41,7 +41,7 @@ describe("Class endpoints", () => {
   });
   it("update one class return the class with successful message ", async () => {
     let lastobject: any = await connection.query(
-      "select * from class ORDER BY id DESC LIMIT 1"
+      "select * from classe ORDER BY id DESC LIMIT 1"
     );
 
     const response = await request(app)
@@ -64,7 +64,7 @@ describe("Class endpoints", () => {
 
   it("request for get  one class should  return the class with successful message ", async () => {
     let lastobject: any = await connection.query(
-      "select * from class ORDER BY id DESC LIMIT 1"
+      "select * from classe ORDER BY id DESC LIMIT 1"
     );
 
     const response = await request(app)
@@ -80,7 +80,7 @@ describe("Class endpoints", () => {
 
   it("request for delete  one class should  return the deleted class with successful message ", async () => {
     let lastobject: any = await connection.query(
-      "select * from class ORDER BY id DESC LIMIT 1"
+      "select * from classe ORDER BY id DESC LIMIT 1"
     );
 
     const response = await request(app)

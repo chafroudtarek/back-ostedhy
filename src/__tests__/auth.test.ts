@@ -180,10 +180,10 @@ describe("Auth endpoints", () => {
     expect(response.body).toEqual({
       error: {
         code: "BAD_REQUEST",
-        message: "code is invalid",
-        name: "auth Error",
+        message: "Code is expired",
+        name: "Code Error",
         statusCode: 400,
-        type: "INVALID",
+        type: "INVALID DATA",
       },
       success: false,
     });
