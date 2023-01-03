@@ -89,7 +89,7 @@ export const uploadAvatar = async (data: any, id: string) => {
 
   //let newImage = "http://localhost:3500/temp/" + data.file.originalname;
   const upload = await cloudinary.uploader.upload(data.file.path);
-  await database.updateOne(Student, { image: data.file.path }, id);
+  await database.updateOne(Student, { image: upload.secure_url }, id);
 
   // fs.writeFileSync(
   //   currentpath + "/public/temp/" + data.file.originalname,
@@ -98,7 +98,7 @@ export const uploadAvatar = async (data: any, id: string) => {
 
   return {
     message: "image successfully uploaded",
-    url: data.file.path,
+    url: upload.secure_url,
   };
 };
 
