@@ -6,7 +6,6 @@ const MYSQL_DATABASE = process.env.MYSQL_DATABASE || "sql7587908";
 const MYSQL_USERNAME = process.env.MYSQL_USERNAME || "sql7587908";
 const MYSQL_PASSWORD = process.env.MYSQL_PASSWORD || "UuDY2ET5uv";
 const MYSQL_HOST = process.env.MYSQL_HOST || "sql7.freesqldatabase.com";
-
 const MYDATABASE = {
   host: MYSQL_HOST,
   username: MYSQL_USERNAME,
