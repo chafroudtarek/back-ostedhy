@@ -10,6 +10,14 @@ import fs from "fs";
 import { currentpath } from "../app";
 import logger from "../utils/logging";
 import { STUDENTError } from "../shared/errors/studentError";
+import { v2 as cloudinary } from "cloudinary";
+import { extractpublicidcloudianry } from "../utils/extractidcloudinary";
+
+cloudinary.config({
+  cloud_name: "djaqfxic1",
+  api_key: "397917968126626",
+  api_secret: "mNbkEU9_NHN13Q5IBxTyIjgcdV0",
+});
 
 const NAMESPACE = "STUDENT SERVICE";
 export const updateProfile = async (data: any, id: string) => {
@@ -79,26 +87,27 @@ export const uploadAvatar = async (data: any, id: string) => {
   if (data.file.size > 2000000)
     throw new ApplicationError(STUDENTError.INVALID_SIZE);
 
-  let newImage = "http://localhost:3500/temp/" + data.file.originalname;
+  //let newImage = "http://localhost:3500/temp/" + data.file.originalname;
+  const upload = await cloudinary.uploader.upload(data.file.path);
+  await database.updateOne(Student, { image: data.file.path }, id);
 
-  await database.updateOne(Student, { image: newImage }, id);
-
-  fs.writeFileSync(
-    currentpath + "/public/temp/" + data.file.originalname,
-    fs.readFileSync(currentpath + "/public/images/" + data.file.filename)
-  );
+  // fs.writeFileSync(
+  //   currentpath + "/public/temp/" + data.file.originalname,
+  //   fs.readFileSync(currentpath + "/public/images/" + data.file.filename)
+  // );
 
   return {
     message: "image successfully uploaded",
-    url: newImage,
+    url: data.file.path,
   };
 };
 
 export const deleteStudentImage = async (id: string) => {
   const user = await userdatabase.findById(id);
-  console.log("user is ", user);
-  if (user!.image == "") throw new ApplicationError(STUDENTError.NOT_FOUND);
 
+  if (user!.image == "") throw new ApplicationError(STUDENTError.NOT_FOUND);
+  const public_id = extractpublicidcloudianry(user?.image);
+  await cloudinary.uploader.destroy(public_id);
   await database.updateOne(Student, { image: "" }, id);
   return {
     message: "image successfully deleted",

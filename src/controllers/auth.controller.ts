@@ -14,7 +14,7 @@ export const getLoggenInUser = async (
 ) => {
   logger.info(` ${NAMESPACE} : Starting getLoggenInUser ...`);
   const { id } = res.locals.user;
-  console.log("user id isis ", id , " ressss ", res.locals)
+
   const response = await service.getLoggenInUser(id);
   res.status(200).json({ response, success: true });
   logger.info(` ${NAMESPACE} : getLoggenInUser get terminated ...`);
