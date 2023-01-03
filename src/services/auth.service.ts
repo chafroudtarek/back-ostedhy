@@ -152,7 +152,7 @@ const requestresetpwd = async (data: any) => {
       );
       throw new ApplicationError(AuthError.NOT_FOUND);
     }
-    const link = `http://localhost:3001/resetpassword?code=${resetToken}&userId=${user.id}`;
+    const link = `https://front-ostedhy-simw.vercel.app/resetpassword?code=${resetToken}&userId=${user.id}`;
     const objectVerif = await verifdatabase.findByEmail(user.email);
     if (objectVerif) {
       let newdata = {
@@ -200,7 +200,7 @@ const requestresetpwd = async (data: any) => {
 
       throw new ApplicationError(AuthError.NOT_FOUND);
     }
-    const link = `http://localhost:3001/resetpassword?code=${resetToken}&userId=${user.id}`;
+    const link = `https://front-ostedhy-simw.vercel.app/resetpassword?code=${resetToken}&userId=${user.id}`;
     const objectVerif = await verifdatabase.findByPhone(user!.phone);
     if (objectVerif) {
       let newdata = {
