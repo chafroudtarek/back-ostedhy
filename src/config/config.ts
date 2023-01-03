@@ -2,9 +2,9 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const MYSQL_DATABASE = process.env.MYSQL_DATABASE || "sql7586743";
-const MYSQL_USERNAME = process.env.MYSQL_USERNAME || "sql7586743";
-const MYSQL_PASSWORD = process.env.MYSQL_PASSWORD || "aJxbkAKIvm";
+const MYSQL_DATABASE = process.env.MYSQL_DATABASE || "sql7587908";
+const MYSQL_USERNAME = process.env.MYSQL_USERNAME || "sql7587908";
+const MYSQL_PASSWORD = process.env.MYSQL_PASSWORD || "UuDY2ET5uv";
 const MYSQL_HOST = process.env.MYSQL_HOST || "sql7.freesqldatabase.com";
 
 const MYDATABASE = {
