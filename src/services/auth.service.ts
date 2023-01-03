@@ -49,13 +49,13 @@ const register = async (Model: any, data: any) => {
   const hash = bcrypt.hashSync(data.password, 5);
 
   _user.password = hash;
-  // const token = jwt.sign(
-  //   { id: _user.id, is_verified: _user.is_verified, role: _user.role },
-  //   config.server.token.secret,
-  //   {
-  //     expiresIn: config.server.token.expireTime,
-  //   }
-  // );
+  const token = jwt.sign(
+    { id: _user.id, is_verified: _user.is_verified, role: _user.role },
+    config.server.token.secret,
+    {
+      expiresIn: config.server.token.expireTime,
+    }
+  );
   const newuser = await userdatabase.createUser(Model, _user);
   logger.info(` ${NAMESPACE} :  register  successfully line 50`);
 
@@ -63,6 +63,7 @@ const register = async (Model: any, data: any) => {
   return {
     message: "Register Successful",
     user: filteruser,
+    accessToken: token,
   };
 };
 
@@ -152,7 +153,7 @@ const requestresetpwd = async (data: any) => {
       );
       throw new ApplicationError(AuthError.NOT_FOUND);
     }
-    const link = `http://localhost:3001/resetpassword?code=${resetToken}&userId=${user.id}`;
+    const link = `https://front-ostedhy.vercel.app/resetpassword?code=${resetToken}&userId=${user.id}`;
     const objectVerif = await verifdatabase.findByEmail(user.email);
     if (objectVerif) {
       let newdata = {
@@ -200,7 +201,7 @@ const requestresetpwd = async (data: any) => {
 
       throw new ApplicationError(AuthError.NOT_FOUND);
     }
-    const link = `http://localhost:3001/resetpassword?code=${resetToken}&userId=${user.id}`;
+    const link = `https://front-ostedhy.vercel.app/resetpassword?code=${resetToken}&userId=${user.id}`;
     const objectVerif = await verifdatabase.findByPhone(user!.phone);
     if (objectVerif) {
       let newdata = {
